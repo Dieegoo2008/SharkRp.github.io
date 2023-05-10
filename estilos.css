@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://cdn.discordapp.com/attachments/1103918742032896000/1105206909885231155/Sea_Sky_Ocean_Horizon_Clouds_527309_1920x1080.png);
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 325px;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.logo img {
+    height: 150px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 300px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: aqua;
+    color: blue;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+
+}
+
+.parrafo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
+    padding-top: 200px;
+    padding-left: 300px;
+    color: white;
+}
+
+.titulo{
+    padding-left: 850px;
+    padding-top: 100px;
+}
